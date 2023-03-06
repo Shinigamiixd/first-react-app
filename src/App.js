@@ -1,8 +1,9 @@
+import Contacts from "./components/contacts/Contacts"
 
 function App() {
   return (
-    <div>
-      test asd
+    <div className="contacts-container">
+      <Contacts/>
     </div>
   );
 }
