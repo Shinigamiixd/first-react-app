@@ -1,9 +1,9 @@
-import Contacts from "./components/contacts/Contacts"
+import ProductsList from "./components/products_list/ProductsList";
 
 function App() {
   return (
-    <div className="contacts-container">
-      <Contacts/>
+    <div className="items-container">
+      <ProductsList/>
     </div>
   );
 }
